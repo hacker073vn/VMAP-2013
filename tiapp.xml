@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">R4tkuo6geHTYuxaQmhwZysD8HusDHp9T</property>
+    <property name="acs-oauth-key-production" type="string">yBd8k8Ba4tyQv6Den7enoHsHDDv2YJxB</property>
+    <property name="acs-api-key-production" type="string">yZGv8Ut0drT4KK0vWPAM8EOyk1qGyxAw</property>
+    <property name="acs-oauth-secret-development" type="string">xVGK7I7hRLmCUhlurpO5N7Tggi5HsgYn</property>
+    <property name="acs-oauth-key-development" type="string">76YvljcJ1DCfZvsuZJTlXdONigRJUZKj</property>
+    <property name="acs-api-key-development" type="string">nNTr6R1TxNUtVQLIruRP6Tz6PnRMpjkh</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.3.GA</sdk-version>
+    <id>vmap.emedia.vn</id>
+    <name>VMAP 2013</name>
+    <version>1.0</version>
+    <publisher>thaibui</publisher>
+    <url>http://www.e-media.vn/</url>
+    <description>not specified</description>
+    <copyright>2012 by thaibui</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>136a4119-fbe6-47ee-8a14-0ac9e33c36a5</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+</ti:app>
